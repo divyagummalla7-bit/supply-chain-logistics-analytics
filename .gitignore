@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+*.env
+C:\mysql-init.txt
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Raw/private data
+data/raw/
+*.csv
+
+# Python cache / build
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+sqlite/sqlite3.exe

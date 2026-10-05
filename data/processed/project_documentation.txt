@@ -1,0 +1,108 @@
+
+SUPPLY CHAIN & LOGISTICS ANALYTICS PROJECT
+===========================================
+
+1. PROJECT TITLE
+----------------
+Supply Chain & Logistics Analytics using Python
+
+2. PROBLEM STATEMENT
+--------------------
+The objective of this project is to analyze supply chain and logistics
+data to understand sales performance, profitability, customer behavior,
+product performance, shipping efficiency, and delivery risks.
+
+3. PROJECT OBJECTIVES
+---------------------
+• Analyze sales and profit performance.
+• Identify high-performing products and categories.
+• Analyze customer segments and markets.
+• Evaluate shipping modes and delivery performance.
+• Identify late-delivery risks.
+• Analyze the relationship between discounts and profitability.
+• Generate actionable business insights and recommendations.
+
+4. DATASET
+----------
+Dataset: DataCo Supply Chain Dataset
+
+Records: 180,519
+Columns in original dataset: 53
+Final analytical columns: 19
+
+5. TECHNOLOGIES USED
+--------------------
+• Python
+• Pandas
+• NumPy
+• Matplotlib
+• Seaborn
+• Plotly
+• Jupyter Notebook
+• Scikit-learn
+• SQLAlchemy
+• FastAPI
+
+6. DATA CLEANING
+----------------
+• Loaded the dataset using Latin-1 encoding.
+• Checked dataset dimensions and data types.
+• Checked missing values.
+• Checked duplicate records.
+• Verified duplicate Order Item IDs.
+• Converted order and shipping dates into datetime format.
+• Created useful date-based features.
+• Selected 19 important columns for the final analytical dataset.
+
+7. KEY PERFORMANCE INDICATORS
+-----------------------------
+Total Orders: 65,752
+Total Order Items: 180,519
+Total Sales: $36,784,735.01
+Total Profit: $3,966,902.97
+Total Quantity Sold: 384,079
+Late Delivery Rate: 54.83%
+Average Actual Shipping: 3.50 days
+Average Scheduled Shipping: 2.93 days
+Overall Profit Margin: 10.78%
+
+8. KEY BUSINESS INSIGHTS
+------------------------
+• Overall late delivery rate is 54.83%.
+• Actual shipping takes approximately 0.57 days longer than scheduled.
+• First Class has the highest late delivery rate at 95.32%.
+• Standard Class has the lowest late delivery rate at 38.07%.
+• Europe is the largest market by sales with approximately $10.87 million.
+• Consumer customers generate the highest sales at approximately $19.10 million.
+• Fishing is the highest-sales product category.
+• The Field & Stream Sportsman 16 Gun Fire Safe is the highest-sales product.
+• Golf Bags & Carts has the highest category profit margin at 17.46%.
+• Higher discount rates generally correspond with lower profit.
+
+9. BUSINESS RECOMMENDATIONS
+---------------------------
+• Investigate the causes of late deliveries.
+• Review warehouse, transportation, and carrier performance.
+• Review First Class and Second Class shipping performance.
+• Improve inventory planning for high-demand products.
+• Focus operational resources on high-performing markets.
+• Develop targeted strategies for Consumer customers.
+• Manage discounts carefully to protect profitability.
+• Monitor profit margins across products, markets, and shipping modes.
+• Build a management dashboard for continuous monitoring.
+
+10. CONCLUSION
+--------------
+The analysis shows that the business generates substantial sales and
+profit, but delivery performance is a major operational challenge.
+More than half of the analyzed order items are associated with late
+delivery risk.
+
+Improving logistics performance, optimizing shipping modes, managing
+discounts, and focusing on high-performing products and markets can
+help improve operational efficiency, customer satisfaction, and
+profitability.
+
+===========================================
+END OF PROJECT DOCUMENTATION
+===========================================
