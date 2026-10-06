@@ -290,7 +290,7 @@ The analysis can help organizations:
 
 ## 👤 Author
 
-**Durga Kadali**
+**Divya Gummalla**
 
 ---
 
