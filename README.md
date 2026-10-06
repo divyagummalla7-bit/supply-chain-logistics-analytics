@@ -199,6 +199,39 @@ The analytical SQL view contains business-relevant fields and excludes sensitive
 * Git
 * GitHub
 
+### Prepare the Data
+
+The raw DataCo Supply Chain dataset is intentionally excluded from this repository because it contains private and sensitive customer information.
+
+Before running the dashboard:
+
+1. Place the raw dataset file in:
+
+```
+data/raw/DataCoSupplyChainDataset.csv
+```
+
+2. Open the Jupyter notebook:
+
+```
+notebooks/01_data_exploration.ipynb
+```
+
+3. Run the notebook to perform data cleaning and generate the processed analytical dataset:
+
+```
+data/processed/final_analytical_dataset.csv
+```
+
+4. After the processed dataset has been created, run the project:
+
+```
+python run_project.py
+```
+
+The generated CSV files are excluded from GitHub using `.gitignore`.
+
+
 ## ▶️ Running the Project
 
 ### Clone the repository
