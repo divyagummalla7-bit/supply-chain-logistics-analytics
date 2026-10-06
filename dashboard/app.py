@@ -375,7 +375,7 @@ with col1:
         margin=dict(l=20, r=20, t=60, b=20)
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 # Profit by market
 with col2:
@@ -401,7 +401,7 @@ with col2:
         margin=dict(l=20, r=20, t=60, b=20)
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 # =========================================================
 # MONTHLY SALES
@@ -433,7 +433,7 @@ fig.update_layout(
     paper_bgcolor="white"
 )
 
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, width='stretch')
 
 # =========================================================
 # DELIVERY
@@ -473,7 +473,7 @@ with col1:
         paper_bgcolor="white"
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 with col2:
 
@@ -500,7 +500,7 @@ with col2:
         paper_bgcolor="white"
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 # =========================================================
 # PRODUCTS & CUSTOMERS
@@ -537,7 +537,7 @@ with col1:
         paper_bgcolor="white"
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 with col2:
 
@@ -559,7 +559,7 @@ with col2:
         paper_bgcolor="white"
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 # =========================================================
 # CATEGORY
@@ -587,7 +587,7 @@ fig.update_layout(
     paper_bgcolor="white"
 )
 
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, width='stretch')
 
 # =========================================================
 # DATA EXPLORER
@@ -600,7 +600,7 @@ st.markdown(
 
 st.dataframe(
     filtered_df,
-    use_container_width=True,
+    width='stretch',
     height=500
 )
 
